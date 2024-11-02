@@ -14,9 +14,9 @@ public class LoginTest {
 		 
 		Thread.sleep(3000);
 		
-		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
+		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("");
 		
-		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin124");
+		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("");
 		
 		driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
 
